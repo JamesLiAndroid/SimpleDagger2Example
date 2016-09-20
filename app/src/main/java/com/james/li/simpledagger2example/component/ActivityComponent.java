@@ -1,14 +1,11 @@
 package com.james.li.simpledagger2example.component;
 
 import com.james.li.simpledagger2example.MainActivity;
-import com.james.li.simpledagger2example.module.ActivityModule;
-
-import dagger.Component;
 
 /**
  * Created by jyj-lsy on 9/20/16 in zsl-tech.
  */
-@Component(modules = ActivityModule.class)
+//@Component(modules = ActivityModule.class)
 public interface ActivityComponent {
     void inject(MainActivity activity);
 }
